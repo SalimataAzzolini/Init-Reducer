@@ -14,11 +14,6 @@ function usersReducer(state, action){
          delete tempState[action.key]
          return tempState
 
-          
-           /*  case 'edit':
-            return state.map((i) => i === action.item ?
-            action.newItem : i);  */
-
             default:
             return tempState;
     }
