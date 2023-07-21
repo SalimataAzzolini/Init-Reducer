@@ -1,13 +1,6 @@
 import React, { useState, useReducer} from 'react';
 
 const FormReducer = () => {
-
-
-   /*  const [user, setUser] = useState({
-        property: "",
-        email: ""
-    }); */
-
   
  const initialsUsers = [{
     property : '',
@@ -86,14 +79,7 @@ const onSubmit = (e) =>{
                 Value : {users.value}<button> delete</button>
             </div>
 
-            {
-                
-               /*  initialsUsers.map((item) =>{
-                    <p> {item.property} : {item.value}</p>
-                })  */
-            }
-           
-     
+
          
         </div>
     );
